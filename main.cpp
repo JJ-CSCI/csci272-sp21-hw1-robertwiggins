@@ -3,7 +3,25 @@
 //------------------------------
 #include "catch.hpp"
 #include "binomial.h"
-//------------------------------
+#include "binomial.cpp"
+
+class Binomial
+
+public:{
+  getCoeffecient(1) == 1.0;
+  getPower(1) == 1;
+  getCoeffecient(2) == 1.0;
+  getPower(2) == 1.0;
+  getCoeffecient(3) == -1.0;
+  Add{0};
+  Multiply{0}
+  Multiply{0};
+};
+private:{
+  setPower(1) == 1.0;
+  setPower(2) == 1.0;
+  setPower(3) == 1.0;
+};
 
 //------------------------------
 //   DO NOT MODIFY TEST CASES
